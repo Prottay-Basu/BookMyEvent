@@ -1,0 +1,3 @@
+DELETE  http://localhost:8080/events/2/register
+content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhc3Vwcm90dGF5QGdtYWlsLmNvbSIsImV4cCI6MTczNTkyMDA3NiwidXNlcklkIjoxfQ.Lyh3oGKJ0m99VbCuEORPTL0sqYJ6TCamUurlNJip8ng

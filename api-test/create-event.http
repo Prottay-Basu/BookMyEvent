@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhc3Vwcm90dGF5QGdtYWlsLmNvbSIsImV4cCI6MTczNTkyMDA3NiwidXNlcklkIjoxfQ.Lyh3oGKJ0m99VbCuEORPTL0sqYJ6TCamUurlNJip8ng
+
+{
+    "name" : "Coldplay concert",
+    "description": "Coldplay is coming to India",
+    "location": "Mumbai",
+    "dateTime": "2025-01-02T15:32:44.00Z"
+}
