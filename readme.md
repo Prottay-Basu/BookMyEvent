@@ -72,11 +72,7 @@ BookMyEvent/
    ```bash
    cd BookMyEvent
    ```
-3. Install dependencies:
-   ```bash
-   go mod tidy
-   ```
-
+   
 ### Running the Application
 1. Start the application:
    ```bash
