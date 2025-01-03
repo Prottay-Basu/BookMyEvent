@@ -41,9 +41,7 @@ BookMyEvent is a functional web application tailored for managing event bookings
 - **Backend**: Go (Golang)
 - **Database**: SQLite
 - **Authentication**: JWT (JSON Web Tokens), bcrypt
-- **Testing**: Go's `testing` package
 - **API Design**: RESTful APIs
-- **Dependency Management**: Go Modules
 
 ## Project Structure
 ```
