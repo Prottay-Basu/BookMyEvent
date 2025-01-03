@@ -37,6 +37,14 @@ BookMyEvent is a functional web application tailored for managing event bookings
   - Modular structure with dedicated directories for models, routes, utilities, and middleware.
   - Easy to extend and maintain, supporting future feature additions.
 
+## Tech Stack
+- **Backend**: Go (Golang)
+- **Database**: SQLite
+- **Authentication**: JWT (JSON Web Tokens), bcrypt
+- **Testing**: Go's `testing` package
+- **API Design**: RESTful APIs
+- **Dependency Management**: Go Modules
+
 ## Project Structure
 ```
 BookMyEvent/
@@ -60,7 +68,7 @@ BookMyEvent/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Prottay-Basu/BookMyEvent.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -74,14 +82,7 @@ BookMyEvent/
 ### Running the Application
 1. Start the application:
    ```bash
-   go run main.go
+   go run .
    ```
 2. The server will be available at `http://localhost:8080`.
-
-## Testing
-- Test cases are located in the `api-test` directory.
-- Run tests using:
-  ```bash
-  go test ./api-test/...
-  ```
 
